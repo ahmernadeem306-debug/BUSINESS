@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    
+    background: linear-gradient(to top, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%), url(businesscommuity.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    position: absolute;
+    top: 0;
+    width: calc(100% - 100px);
+}
+
+.navbar .logo{
+    color: #ffffff; 
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 18px;
+    align-items: center;
+}
+
+.navbar ul li{
+    margin: 0;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.login, .getintouch {
+    display: flex;
+    gap: 10px;
+}
+
+
+.btn, .btn1, .btn2, .btn3{
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.btn{ 
+    background: #2f4b10; 
+    color: #ffffff;
+}
+
+.btn:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+.btn1{ 
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.btn1:hover {
+    background: #000000;
+    color: #ffffff;
+    border-color: #000000;
+}
+
+.btn2{ 
+    background: #cfeaa0; 
+    color: #26410a; 
+    font-weight: 600;
+}
+
+.btn2:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+.btn3{ 
+    background: transparent;
+    color: #cfeaa0;
+    border: 1px solid #cfeaa0;
+}
+
+.btn3:hover {
+    background: #000000;
+    color: #ffffff;
+    border-color: #000000;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    text-align: left;
+    color: white;
+    max-width: 520px;
+}
+
+.content h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.content h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.content .par{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.get-quote, .learn-more {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+
+footer {
+    background: #2f4b10;
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+    margin-top: 0;
+    border-top: none;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
